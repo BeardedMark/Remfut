@@ -57,16 +57,16 @@
 
     <div class="flex-row-8">
         @component('components.stamp', [
-            'header' => $enemy->getHealth(),
-            'note' => 'Здр',
-            'tooltip' => 'Здоровье врага',
+            'header' => $enemy->getDamage(),
+            'note' => 'Урн',
+            'tooltip' => 'Урон врага',
         ])
         @endcomponent
 
         @component('components.stamp', [
-            'header' => $enemy->getDamage(),
-            'note' => 'Урн',
-            'tooltip' => 'Урон врага',
+            'header' => $enemy->getHealth(),
+            'note' => 'Здр',
+            'tooltip' => 'Здоровье врага',
         ])
         @endcomponent
 

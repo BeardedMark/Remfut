@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace App\Domains\Battles\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Traits\HasLogs;

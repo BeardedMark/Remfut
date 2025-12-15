@@ -158,13 +158,15 @@ trait HasModifierStats
 
     public function getMoveSpeed(): float
     {
-        $moveSpeed = 15 + $this->getResultValue('add_move_speed', 'increase_move_speed');
+        $moveSpeedDefault = 1000;
+
+        $moveSpeed = $moveSpeedDefault + $this->getResultValue('add_move_speed', 'increase_move_speed');
         $agility = $this->getAgility();
 
         $agilityBoost = $agility / ($agility + (10 * $moveSpeed));
         $moveSpeed = $moveSpeed + $moveSpeed * $agilityBoost;
 
-        return number_format($moveSpeed, 2);
+        return round($moveSpeed, 2);
     }
 
     public function getAttackSpeed(): float

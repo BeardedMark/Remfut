@@ -13,8 +13,11 @@
             </div> --}}
         </a>
 
-        <p class="color-second" data-tooltip="Выживи на руинах идеального будущего">
-            RemFut
+        <p class="flex-row-8 ai-end">
+            <span data-tooltip="Remnant of the Future">RemFut</span>
+            <span class="color-second font-sm cursor-help"
+                data-tooltip="Самая ранняя стадия разработки игры, когда создаются и тестируются базовые механики без готового контента и визуала">
+                Pre-Alpha</span>
         </p>
 
         <div class="flex-grow jc-end flex-row-8">

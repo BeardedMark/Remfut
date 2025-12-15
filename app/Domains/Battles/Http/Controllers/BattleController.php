@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Domains\Battles\Http\Controllers;
+use App\Http\Controllers\Controller;
 
-use App\Models\Battle;
+use App\Domains\Battles\Models\Battle;
 use App\Domains\Characters\Models\Character;
 use Illuminate\Http\Request;
-use App\Services\CombatService;
+use App\Domains\Battles\Services\CombatService;
 
 class BattleController extends Controller
 {

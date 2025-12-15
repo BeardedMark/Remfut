@@ -6,14 +6,14 @@ use App\Domains\Locations\Http\Controllers\LocationController;
 use App\Domains\Characters\Http\Controllers\CharacterController;
 use App\Domains\Enemies\Http\Controllers\EnemyController;
 use App\Domains\Items\Http\Controllers\ItemController;
+use App\Domains\Battles\Http\Controllers\BattleController;
 
 use App\Http\Controllers\{
     AuthController,
     UserController,
     PageController,
     TransitionController,
-    ContainerController,
-    BattleController
+    ContainerController
 };
 
 use App\Http\Middleware\{

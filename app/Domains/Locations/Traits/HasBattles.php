@@ -2,7 +2,7 @@
 
 namespace App\Domains\Locations\Traits;
 
-use App\Models\Battle;
+use App\Domains\Battles\Models\Battle;
 
 trait HasBattles
 {

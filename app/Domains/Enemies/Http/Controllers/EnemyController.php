@@ -7,7 +7,7 @@ use App\Domains\Enemies\Models\Enemy;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
-use App\Services\CombatService;
+use App\Domains\Battles\Services\CombatService;
 use App\Domains\Items\Services\ItemService;
 
 class EnemyController extends Controller

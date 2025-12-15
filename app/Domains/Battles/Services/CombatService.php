@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace App\Domains\Battles\Services;
 
 use App\Models\Battle;
 use App\Domains\Enemies\Instances\EnemyInstance;

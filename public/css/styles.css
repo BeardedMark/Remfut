@@ -54,7 +54,7 @@
 /* Для Firefox */
 * {
     scrollbar-width: auto;
-    scrollbar-color: var(--color-second) var(--color-other);
+    scrollbar-color: var(--color-second) transparent;
 }
 
 .preloader {
@@ -529,6 +529,10 @@ p {
     color: var(--color-accent);
     transition: .3s;
     /* cursor: pointer; */
+}
+
+.cursor-help{
+    cursor: help;
 }
 
 .link:hover {
@@ -1099,6 +1103,34 @@ input[type="range"]::-ms-thumb:hover {
 .font-light-brand {
     /* text-decoration: underline; */
     filter: drop-shadow(0 0 5px var(--color-brand));
+}
+.font-light-brand:hover {
+    filter: drop-shadow(0 0 13px var(--color-brand));
+}
+
+@keyframes pulse-glow {
+  0% {
+    filter: drop-shadow(0 0 5px var(--color-brand));
+    color: var(--color-accent);
+  }
+  50% {
+    filter: drop-shadow(0 0 13px var(--color-brand));
+    color: var(--color-brand);
+  }
+  100% {
+    filter: drop-shadow(0 0 5px var(--color-brand));
+    color: var(--color-accent);
+  }
+}
+
+.font-pulse-brand {
+  filter: drop-shadow(0 0 5px var(--color-brand));
+  animation: pulse-glow 2s infinite ease-in-out;
+  transition: color .3s ease, filter .3s ease; /* плавность цвета и свечения */
+}
+
+.font-pulse-brand:hover {
+  animation: none;
 }
 
 /* [data-tooltip] {

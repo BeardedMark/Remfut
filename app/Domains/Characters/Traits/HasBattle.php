@@ -2,7 +2,7 @@
 
 namespace App\Domains\Characters\Traits;
 
-use App\Models\Battle;
+use App\Domains\Battles\Models\Battle;
 
 trait HasBattle
 {

@@ -4,7 +4,7 @@
                     y1="{{ $roadToUnvisitedLocation->fromLocation->y }}"
                     x2="{{ $roadToUnvisitedLocation->toLocation->x }}"
                     y2="{{ $roadToUnvisitedLocation->toLocation->y }}"
-                    data-tooltip="{{ $roadToUnvisitedLocation->getDistance() }}м / {{$roadToUnvisitedLocation->getTimeToDistanceFormatted($character->getMoveSpeed())}} (Неизведанно)" />
+                    data-tooltip="{{ $roadToUnvisitedLocation->getDistance() }}м / {{$roadToUnvisitedLocation->getTimeToDistanceFormatted($character->getMoveSpeed())}}" />
             @endif
         @endforeach
 
