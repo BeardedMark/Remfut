@@ -27,7 +27,7 @@
 
             <div class="col-md-auto d-flex flex-column align-items-md-end align-items-center">
                 <div class="img-contain mb-1" style="width: 128px">
-                    <img src="{{ asset('storage/images/logo.png') }}" alt="logo">
+                    <img src="{{ asset('images/logo.png') }}" alt="logo">
                 </div>
 
                 <p class="color-second font-sm">Remnants of the Future © 2025</p>

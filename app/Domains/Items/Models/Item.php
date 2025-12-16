@@ -42,7 +42,7 @@ class Item extends Model
 
     public function getImageUrl(): string
     {
-        return asset('storage/images/items/' . $this->image);
+        return asset('images/items/' . $this->image);
     }
 
     // Values

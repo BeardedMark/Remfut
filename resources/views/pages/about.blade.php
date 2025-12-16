@@ -29,7 +29,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/genre_and_platform.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/genre_and_platform.png') }}" alt="">
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/visual_atmosphere.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/visual_atmosphere.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/plot_and_ideas.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/plot_and_ideas.png') }}" alt="">
                 </div>
             </div>
 
@@ -175,7 +175,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/structure_of_the_world.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/structure_of_the_world.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -186,7 +186,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/items_and_loot.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/items_and_loot.png') }}" alt="">
                 </div>
             </div>
 
@@ -253,7 +253,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/enemies_and_creatures.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/enemies_and_creatures.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -264,7 +264,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/character_leveling.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/character_leveling.png') }}" alt="">
                 </div>
             </div>
 
@@ -321,7 +321,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/economy_and_trade.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/economy_and_trade.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -332,7 +332,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/factions_influence_and_sieges.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/factions_influence_and_sieges.png') }}" alt="">
                 </div>
             </div>
 
@@ -403,7 +403,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/world_events_and_calendar.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/world_events_and_calendar.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -414,7 +414,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/about/interaction_between_players.png') }}" alt="">
+                    <img src="{{ asset('images/pages/about/interaction_between_players.png') }}" alt="">
                 </div>
             </div>
 

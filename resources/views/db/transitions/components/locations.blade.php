@@ -27,7 +27,7 @@
         data-tooltip="{{ $character->currentLocation()->getTitle() }} (Вы тут)" />
 
     @if ($character->currentBattle())
-        <image class="lock" href="{{ asset('storage/images/icons/battle.png') }}"
+        <image class="lock" href="{{ asset('images/icons/battle.png') }}"
             x="{{ $character->currentLocation()->x - 16 }}" y="{{ $character->currentLocation()->y - 16 }}"
             width="32" height="32" />
     @endif

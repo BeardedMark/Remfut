@@ -23,7 +23,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/lore/past.png') }}" alt="">
+                    <img src="{{ asset('images/pages/lore/past.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/lore/backstory.png') }}" alt="">
+                    <img src="{{ asset('images/pages/lore/backstory.png') }}" alt="">
                 </div>
             </div>
 
@@ -68,7 +68,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/lore/present.png') }}" alt="">
+                    <img src="{{ asset('images/pages/lore/present.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/lore/future.png') }}" alt="">
+                    <img src="{{ asset('images/pages/lore/future.png') }}" alt="">
                 </div>
             </div>
 

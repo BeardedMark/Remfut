@@ -3,7 +3,7 @@
 @section('content')
     <div class="d-flex justify-content-center">
         <div class="img-contain" style="height: 500px">
-            <img src="{{ asset('storage/images/logo.png') }}" alt="">
+            <img src="{{ asset('images/logo.png') }}" alt="">
         </div>
     </div>
 
@@ -31,7 +31,7 @@
     </div>
 
     <div class="frame img-cover" style="height: 250px">
-        <img src="{{ asset('storage/images/pages/main/preview.png') }}" alt="">
+        <img src="{{ asset('images/pages/main/preview.png') }}" alt="">
         {{-- <p class="absolute font-xxl font-light-brand">Большой мир</p> --}}
     </div>
 
@@ -72,7 +72,7 @@
     </div>
 
     <div class="frame img-cover" style="height: 500px">
-        <img src="{{ asset('storage/images/pages/main/history.png') }}" alt="">
+        <img src="{{ asset('images/pages/main/history.png') }}" alt="">
         {{-- <p class="absolute font-xxl font-light-brand">Интересные локации</p> --}}
     </div>
 
@@ -118,7 +118,7 @@
     </div>
 
     <div class="frame img-cover" style="height: 250px">
-        <img src="{{ asset('storage/images/pages/main/world.png') }}" alt="">
+        <img src="{{ asset('images/pages/main/world.png') }}" alt="">
         {{-- <p class="absolute font-xxl font-light-brand">Уникальный лут</p> --}}
     </div>
 
@@ -161,32 +161,32 @@
         <div class="row g-4 align-items-center">
             <div class="col-6 col-md-3">
                 <div class="frame img-contain">
-                    <a href="{{ asset('storage/images/screenshots/location.png') }}" target="_blink">
-                        <img src="{{ asset('storage/images/screenshots/location.png') }}" alt="">
+                    <a href="{{ asset('images/screenshots/location.png') }}" target="_blink">
+                        <img src="{{ asset('images/screenshots/location.png') }}" alt="">
                     </a>
                 </div>
             </div>
 
             <div class="col-6 col-md-3">
                 <div class="frame img-contain">
-                    <a href="{{ asset('storage/images/screenshots/transition.png') }}" target="_blink">
-                        <img src="{{ asset('storage/images/screenshots/transition.png') }}" alt="">
+                    <a href="{{ asset('images/screenshots/transition.png') }}" target="_blink">
+                        <img src="{{ asset('images/screenshots/transition.png') }}" alt="">
                     </a>
                 </div>
             </div>
 
             <div class="col-6 col-md-3">
                 <div class="frame img-contain">
-                    <a href="{{ asset('storage/images/screenshots/inventory.png') }}" target="_blink">
-                        <img src="{{ asset('storage/images/screenshots/inventory.png') }}" alt="">
+                    <a href="{{ asset('images/screenshots/inventory.png') }}" target="_blink">
+                        <img src="{{ asset('images/screenshots/inventory.png') }}" alt="">
                     </a>
                 </div>
             </div>
 
             <div class="col-6 col-md-3">
                 <div class="frame img-contain">
-                    <a href="{{ asset('storage/images/screenshots/battle.png') }}" target="_blink">
-                        <img src="{{ asset('storage/images/screenshots/battle.png') }}" alt="">
+                    <a href="{{ asset('images/screenshots/battle.png') }}" target="_blink">
+                        <img src="{{ asset('images/screenshots/battle.png') }}" alt="">
                     </a>
                 </div>
             </div>
@@ -196,7 +196,7 @@
     <div class="row ai-center">
         <div class="col-6 col-md-3 order-2 order-md-1">
             <div class="img-cover">
-                <img src="{{ asset('storage/images/npc/xenon.png') }}" alt="">
+                <img src="{{ asset('images/npc/xenon.png') }}" alt="">
             </div>
         </div>
 
@@ -217,7 +217,7 @@
 
         <div class="col-6 col-md-3 order-3 order-md-3">
             <div class="img-cover">
-                <img src="{{ asset('storage/images/npc/astat.png') }}" alt="">
+                <img src="{{ asset('images/npc/astat.png') }}" alt="">
             </div>
         </div>
     </div>

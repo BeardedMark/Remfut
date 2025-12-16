@@ -1,4 +1,4 @@
-<div class="wallpaper" style="background-image: url('@yield('wallpaper', asset('storage/images/locations/default.png'))')"></div>
+<div class="wallpaper" style="background-image: url('@yield('wallpaper', asset('images/locations/default.png'))')"></div>
 <div class="overlay"></div>
 
 @push('scripts')

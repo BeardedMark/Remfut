@@ -52,7 +52,7 @@ class Enemy extends Model
 
     public function getImageUrl()
     {
-        return asset('storage/images/enemies/' . $this->image);
+        return asset('images/enemies/' . $this->image);
     }
 
     public function getHealth()

@@ -41,7 +41,7 @@ class PageController extends Controller
 
             foreach ($files as $file) {
                 $relative = str_replace('\\', '/', $file->getRelativePathname());
-                $images[] = asset("storage/images/gallery/" . ltrim($relative, '/'));
+                $images[] = asset("images/gallery/" . ltrim($relative, '/'));
             }
         }
 

@@ -65,12 +65,12 @@ trait HasMetaFields
 
     public function getImageUrl(): ?string
     {
-        return $this->image ? asset(($this->imagesDirectory ?? 'storage/images/') . $this->image) : null;
+        return $this->image ? asset(($this->imagesDirectory ?? 'images/') . $this->image) : null;
     }
 
     public function getSoundUrl(): ?string
     {
-        return $this->sound ? asset(($this->soundsDirectory ?? 'storage/sounds/') . $this->sound) : null;
+        return $this->sound ? asset(($this->soundsDirectory ?? 'sounds/') . $this->sound) : null;
     }
 
     public function isPublished(): bool

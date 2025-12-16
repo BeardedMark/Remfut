@@ -28,7 +28,7 @@ class Container extends Model
 
     public function getImageUrl(): string
     {
-        return asset('storage/images/objects/' . $this->image);
+        return asset('images/objects/' . $this->image);
     }
     public function getRequirements(): array
     {

@@ -9,7 +9,7 @@
             @endcomponent
 
             {{-- <div class="img-contain" style="height: 28px">
-                <img src="{{ asset('storage/images/favicon.png') }}" alt="logo">
+                <img src="{{ asset('images/favicon.png') }}" alt="logo">
             </div> --}}
         </a>
 

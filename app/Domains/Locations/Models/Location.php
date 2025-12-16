@@ -24,8 +24,8 @@ class Location extends Model
     use HasLocations;
     use HasBattles;
 
-    private $imagesDirectory = 'storage/images/locations/';
-    private $soundsDirectory = 'storage/sounds/locations/';
+    private $imagesDirectory = 'images/locations/';
+    private $soundsDirectory = 'sounds/locations/';
 
     protected $fillable = [];
 

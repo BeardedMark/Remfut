@@ -57,7 +57,7 @@ class Character extends Model
     }
     public function getImageUrl()
     {
-        return asset('storage/images/characters/avatars/' . $this->image);
+        return asset('images/characters/avatars/' . $this->image);
     }
 
     public function getJson(): ?string

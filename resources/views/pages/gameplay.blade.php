@@ -22,7 +22,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/gameplay/world.png') }}" alt="">
+                    <img src="{{ asset('images/pages/gameplay/world.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/gameplay/content.png') }}" alt="">
+                    <img src="{{ asset('images/pages/gameplay/content.png') }}" alt="">
                 </div>
             </div>
 
@@ -68,7 +68,7 @@
 
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/gameplay/inventory.png') }}" alt="">
+                    <img src="{{ asset('images/pages/gameplay/inventory.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-md-5">
                 <div class="frame img-contain">
-                    <img src="{{ asset('storage/images/pages/gameplay/action.png') }}" alt="">
+                    <img src="{{ asset('images/pages/gameplay/action.png') }}" alt="">
                 </div>
             </div>
 
